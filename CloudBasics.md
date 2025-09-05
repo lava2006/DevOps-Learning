@@ -90,8 +90,6 @@ Hybrid cloud combines public and private clouds, allowing data and applications 
   - Supports disaster recovery and backup  
 - *Example:* An organization runs sensitive applications on private cloud while using public cloud for web hosting.
 
----
-
 ## Basic IT Concepts for Cloud Beginners
 
 ### Networking
