@@ -147,24 +147,6 @@ echo "Deployment done!"
 
 ---
 
-## Version Control Commands (Git)
-
-- git clone  
-- git status  
-- git add .  
-- git commit -m "message"  
-- git push
-
----
-
-## Tips for Effective DevOps
-
-- Use pipes (|) to combine commands.  
-- Schedule tasks using cron.  
-- Use session managers like tmux or screen for multitasking.
-
----
-
 ## Useful Resources
   
 - [Linux Tutorial for Beginners (YouTube)](https://www.youtube.com/watch?v=ivdITTVGCe8)  
