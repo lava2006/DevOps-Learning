@@ -180,8 +180,3 @@ Amazon S3 is a powerful and versatile storage service with a wide range of stora
 - [AWS CLI Documentation](https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-website.html)  
 
 ---
-
-Would you like a similar project or example scripts for other AWS storage services like EBS, EFS, or FSx?
-
-
-This README section helps demonstrate practical knowledge and can be expanded with your website project details. Would you like assistance creating a full sample static site project repository structure?
