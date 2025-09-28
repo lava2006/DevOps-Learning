@@ -15,15 +15,15 @@ Amazon Simple Storage Service (S3) is a cloud-native, fully managed object stora
 
 ## Amazon S3 Storage Classes
 
-| Storage Class                  | Use Case & Access Patterns                                                       | Durability           | Availability        | Latency              | Cost                   |
-|-------------------------------|---------------------------------------------------------------------------------|----------------------|---------------------|----------------------|------------------------|
-| **S3 Standard**                | Frequently accessed data such as websites and applications                       | 99.999999999%        | 99.99%              | Millisecond          | Highest                |
-| **S3 Intelligent-Tiering**    | Data with unknown or changing access patterns, auto tiering                      | 99.999999999%        | 99.9%               | Millisecond          | Lower with monitoring   |
-| **S3 One Zone-IA**            | Infrequently accessed, re-creatable data stored in a single AZ                   | 99.999999999%        | 99.5%               | Millisecond          | Lowest per tier         |
-| **S3 Standard-IA**            | Less frequently accessed data but needs rapid access                             | 99.999999999%        | 99.9%               | Millisecond          | Lower than standard     |
-| **S3 Glacier Instant Retrieval** | Long-lived archive with instant retrieval                                     | 99.999999999%        | 99.9%               | Millisecond          | Very low                |
-| **S3 Glacier Flexible Retrieval** | Archive data with minutes to hours retrieval                                  | 99.999999999%        | 99.99%              | Minutes to hours     | Very low                |
-| **S3 Glacier Deep Archive**   | Deep archival storage rarely accessed                                            | 99.999999999%        | 99.99%              | Hours                | Lowest cost             |
+| Storage Class                  | Use Case & Access Patterns                                                      | Latency              | Cost                   |
+|-------------------------------|----------------------------------------------------------------------------------|----------------------|------------------------|
+| **S3 Standard**                | Frequently accessed data such as websites and applications                      | Millisecond          | Highest                |
+| **S3 Intelligent-Tiering**    | Data with unknown or changing access patterns, auto tiering                      | Millisecond          | Lower with monitoring   |
+| **S3 One Zone-IA**            | Infrequently accessed, re-creatable data stored in a single AZ                   | Millisecond          | Lowest per tier         |
+| **S3 Standard-IA**            | Less frequently accessed data but needs rapid access                             | Millisecond          | Lower than standard     |
+| **S3 Glacier Instant Retrieval** | Long-lived archive with instant retrieval                                     | Millisecond          | Very low                |
+| **S3 Glacier Flexible Retrieval** | Archive data with minutes to hours retrieval                                 | Minutes to hours     | Very low                |
+| **S3 Glacier Deep Archive**   | Deep archival storage rarely accessed                                            | Hours                | Lowest cost             |
 
 ---
 
@@ -36,11 +36,6 @@ Amazon Simple Storage Service (S3) is a cloud-native, fully managed object stora
 | Backup with rapid access needs    | S3 Standard-IA or Glacier Instant Retrieval   |
 | Long-term archival                | Glacier Flexible Retrieval or Deep Archive    |
 | Live data requiring very low latency | S3 Express One Zone                          |
-
----
-all the beginner and advanced content should be present in that for my github readme
-
-Here is a comprehensive GitHub README template for Amazon S3, incorporating both beginner and advanced content. It covers fundamental concepts, detailed features, advanced storage classes, best practices, security, cost optimization, and practical CLI examples to support your DevOps learning journey:
 
 ***
 
