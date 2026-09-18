@@ -492,14 +492,6 @@ What I found difficult:
 
 ---
 
-# 📁 Files Created
-
-```text
-Daily-Learnings/
-└── Day-01-What-is-Kubernetes.md
-```
-
----
 
 # 📚 Free Learning Resources
 
@@ -535,18 +527,4 @@ the Kubernetes API.
 
 ---
 
-# ✅ Day 1 Checklist
 
-* [ ] Understood Kubernetes
-* [ ] Understood why Kubernetes is needed
-* [ ] Learned Cluster
-* [ ] Learned Control Plane
-* [ ] Learned Node
-* [ ] Learned Pod
-* [ ] Learned kubectl
-* [ ] Practiced basic kubectl commands
-* [ ] Checked the Kubernetes cluster
-* [ ] Checked Kubernetes nodes
-* [ ] Documented my observations
-
-**Day 1 Status: ⬜ Not Started / 🟡 In Progress / 🟢 Completed**
